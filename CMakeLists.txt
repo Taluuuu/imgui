@@ -4,7 +4,9 @@ set(IMGUI_SOURCES
     imgui.cpp
     imgui_draw.cpp
     imgui_tables.cpp
-    imgui_widgets.cpp)
+    imgui_widgets.cpp
+    misc/cpp/imgui_stdlib.cpp
+)
 
 if(IMGUI_USE_OPENGL)
     list(APPEND IMGUI_SOURCES
